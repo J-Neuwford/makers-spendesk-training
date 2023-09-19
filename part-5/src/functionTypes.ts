@@ -19,5 +19,5 @@ console.log(multiply(2, 8));
 
 const multiplyThenAdd = combineOperations(multiply, add);
 
-const result = multiplyThenAdd(3, 5, 2); // (3 * 5) + 2
-console.log(result); // => 21
+const result = multiplyThenAdd(3, 5, 2);
+console.log(result);

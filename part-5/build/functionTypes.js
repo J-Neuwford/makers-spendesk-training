@@ -13,5 +13,5 @@ console.log(subtract(6, 2));
 console.log(divide(9, 3));
 console.log(multiply(2, 8));
 var multiplyThenAdd = combineOperations(multiply, add);
-var result = multiplyThenAdd(3, 5, 2); // (3 * 5) + 2
-console.log(result); // => 21
+var result = multiplyThenAdd(3, 5, 2);
+console.log(result);
